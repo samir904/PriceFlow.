@@ -1,3 +1,4 @@
+
 // backend/MODELS/Product.js
 
 import { Schema, model } from "mongoose";
