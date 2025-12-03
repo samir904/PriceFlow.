@@ -4,7 +4,7 @@ import Report from "../MODELS/Report.model.js";
 import Order from "../CONFIG/order.model.js";
 import Product from "../CONFIG/Product.model.js";
 import User from "../CONFIG/user.js";
-import Payment from "../MODELS/Payment.model.js";
+import Payment from "../CONFIG/payment.model.js";
 
 // ============================================
 // CREATE SALES REPORT

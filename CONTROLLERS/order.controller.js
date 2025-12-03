@@ -3,7 +3,8 @@
 import Order from "../CONFIG/order.model.js";
 import Product from "../CONFIG/Product.model.js";
 import Discount from "../CONFIG/discount.model.js";
-import Payment from "../models/payment.model.js";
+import Payment from "../CONFIG/payment.model.js";
+
 
 
 
