@@ -4,7 +4,7 @@ import Analytics from "../models/analytics.model.js";
 import Order from "../models/order.model.js";
 import Product from "../models/Product.model.js";
 
-import User from "../models/user.js";
+import User from "../CONFIG/user.js";
 
 
 // ============================================
