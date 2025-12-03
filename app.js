@@ -15,20 +15,20 @@ import discountRoute from './ROUTES/discount.route.js'
 import analyticsRoute from './ROUTES/analytics.route.js'
 
 const app = express();
-app.use(
-    cors({
-        origin: process.env.FRONTEND_URL || 'http://localhost:5173', // ✅ Add fallback
-        credentials: true,
-        methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"], // ✅ Include OPTIONS
-        allowedHeaders: ["Content-Type", "Authorization"],
-        optionsSuccessStatus: 200 // ✅ Add this for older browsers
-    })
-);
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieParser())
 app.use(morgan('dev'));
-
+app.use(
+    cors({
+        origin: process.env.FRONTEND_URL || 'http://localhost:5173',  // ✅ Vite default port
+        credentials: true,  // ✅ Fixed typo from "Credential"
+        methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        allowedHeaders: ["Content-Type", "Authorization"],
+        exposedHeaders: ["set-cookie"]  // ✅ Important for cookies
+    })
+);
 
 app.get('/health',(req,res)=>{
     res.status(200).json({
