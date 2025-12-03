@@ -1,6 +1,6 @@
 // backend/CONTROLLERS/discount.controller.js
 
-import Discount from "../MODELS/discount.model.js";
+import Discount from "../models/discount.model.js";
 
 // ============================================
 // CREATE DISCOUNT

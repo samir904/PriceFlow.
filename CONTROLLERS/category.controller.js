@@ -1,6 +1,6 @@
 // backend/CONTROLLERS/category.controller.js
 
-import Category from "../MODELS/category.model.js";
+import Category from "../models/category.model.js";
 
 // ============================================
 // CREATE CATEGORY

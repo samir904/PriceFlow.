@@ -3,7 +3,7 @@
 import Report from "../MODELS/Report.model.js";
 import Order from "../MODELS/Order.model.js";
 import Product from "../MODELS/Product.model.js";
-import User from "../MODELS/User.model.js";
+import User from "../models/user.js";
 import Payment from "../MODELS/Payment.model.js";
 
 // ============================================

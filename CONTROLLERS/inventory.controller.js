@@ -1,7 +1,7 @@
 // backend/CONTROLLERS/inventory.controller.js
 
-import Inventory from "../MODELS/Inventory.model.js";
-import Product from "../MODELS/Product.model.js";
+import Inventory from "../models/Inventory.model.js";
+import Product from "../models/Product.model.js";
 
 
 // ============================================

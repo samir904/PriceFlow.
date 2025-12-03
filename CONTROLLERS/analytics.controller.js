@@ -1,10 +1,10 @@
 // backend/CONTROLLERS/analytics.controller.js
 
-import Analytics from "../MODELS/analytics.model.js";
-import Order from "../MODELS/order.model.js";
-import Product from "../MODELS/Product.model.js";
+import Analytics from "../models/analytics.model.js";
+import Order from "../models/order.model.js";
+import Product from "../models/Product.model.js";
 
-import User from "../MODELS/user.model.js";
+import User from "../models/user.js";
 
 
 // ============================================

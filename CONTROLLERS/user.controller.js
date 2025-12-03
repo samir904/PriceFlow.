@@ -1,6 +1,6 @@
 // backend/CONTROLLERS/user.controller.js
 
-import User from "../MODELS/user.model.js";
+import User from "../models/user.js";
 import crypto from "crypto";
 import cloudinary from "cloudinary";
 import fs from "fs/promises";
