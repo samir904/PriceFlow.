@@ -265,4 +265,4 @@ const Product = model("Product", productSchema);
 // export default Product;
 
 // ✅ CORRECT (at the end of file)
-export default mongoose.Product.User || mongoose.model('Product', userSchema);
+export default mongoose.Product.User || mongoose.model('Product', productSchema);
