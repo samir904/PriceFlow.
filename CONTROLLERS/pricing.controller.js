@@ -1,7 +1,9 @@
 // backend/CONTROLLERS/pricing.controller.js
 
-import PricingStrategy from "../models/PricingStrategy.model.js";
+import PricingStrategy from "../MIDDLEWARES/PricingStrategy.model.js";
 import Product from "../CONFIG/Product.model.js";
+
+
 
 
 // ============================================
