@@ -1,6 +1,7 @@
 
-// backend/MODELS/Product.js
+// backend/MODELS/Product.model.js
 
+import mongoose from "mongoose";
 import { Schema, model } from "mongoose";
 
 const productSchema = new Schema({
@@ -261,4 +262,7 @@ productSchema.pre("save", function(next) {
 });
 
 const Product = model("Product", productSchema);
-export default Product;
+// export default Product;
+
+// ✅ CORRECT (at the end of file)
+export default mongoose.Product.User || mongoose.model('Product', userSchema);
