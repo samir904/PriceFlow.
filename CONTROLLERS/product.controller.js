@@ -1,10 +1,11 @@
 // backend/CONTROLLERS/product.controller.js
 
-import Product from "../models/Product.model.js";
+import Product from "../CONFIG/Product.model.js";
 import Category from "../CONFIG/category.model.js";
 import cloudinary from "cloudinary";
 import fs from "fs/promises";
 import Apperror from "../UTILS/error.util.js";
+
 
 // ============================================
 // CREATE PRODUCT
