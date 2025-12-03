@@ -1,7 +1,7 @@
 // backend/CONTROLLERS/payment.controller.js
 
 import Payment from "../models/payment.model.js";
-import Order from "../models/order.model.js";
+import Order from "../CONFIG/order.model.js";
 import crypto from "crypto";
 
 // ============================================

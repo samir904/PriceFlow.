@@ -1,7 +1,7 @@
 // backend/CONTROLLERS/analytics.controller.js
 
 import Analytics from "../models/analytics.model.js";
-import Order from "../models/order.model.js";
+import Order from "../CONFIG/order.model.js";
 import Product from "../models/Product.model.js";
 
 import User from "../CONFIG/user.js";

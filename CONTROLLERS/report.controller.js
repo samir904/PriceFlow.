@@ -1,7 +1,7 @@
 // backend/CONTROLLERS/report.controller.js
 
 import Report from "../MODELS/Report.model.js";
-import Order from "../MODELS/Order.model.js";
+import Order from "../CONFIG/order.model.js";
 import Product from "../MODELS/Product.model.js";
 import User from "../CONFIG/user.js";
 import Payment from "../MODELS/Payment.model.js";
