@@ -3,6 +3,7 @@
 import Inventory from "../MODELS/Inventory.model.js";
 import Product from "../MODELS/Product.model.js";
 
+
 // ============================================
 // CREATE INVENTORY
 // ============================================
