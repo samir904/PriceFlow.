@@ -1,7 +1,7 @@
 // backend/CONTROLLERS/product.controller.js
 
 import Product from "../MODELS/Product.model.js";
-import Category from "../MODELS/Category.model.js";
+import Category from "../MODELS/category.model.js";
 import cloudinary from "cloudinary";
 import fs from "fs/promises";
 import Apperror from "../UTILS/error.util.js";

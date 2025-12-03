@@ -1,9 +1,9 @@
 // backend/CONTROLLERS/analytics.controller.js
 
-import Analytics from "../MODELS/Analytics.model.js";
-import Order from "../MODELS/Order.model.js";
+import Analytics from "../MODELS/analytics.model.js";
+import Order from "../MODELS/order.model.js";
 import Product from "../MODELS/Product.model.js";
-import User from "../MODELS/User.model.js";
+import User from "../MODELS/user.model.js";
 
 // ============================================
 // GET SALES ANALYTICS (Seller)

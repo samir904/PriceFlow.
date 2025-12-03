@@ -1,9 +1,9 @@
 // backend/CONTROLLERS/order.controller.js
 
-import Order from "../MODELS/Order.model.js";
+import Order from "../MODELS/order.model.js";
 import Product from "../MODELS/Product.model.js";
-import Discount from "../MODELS/Discount.model.js";
-import Payment from "../MODELS/Payment.model.js";
+import Discount from "../MODELS/discount.model.js";
+import Payment from "../MODELS/payment.model.js";
 
 // ============================================
 // CREATE ORDER
